@@ -1,0 +1,7 @@
+langchain
+langchain-google-genai
+langchain-community
+beautifulsoup4
+lxml
+python-dotenv
+uv

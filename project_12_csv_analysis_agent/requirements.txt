@@ -1,0 +1,6 @@
+langchain
+langchain-google-genai
+langchain-experimental
+pandas
+python-dotenv
+uv

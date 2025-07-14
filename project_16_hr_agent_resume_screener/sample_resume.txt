@@ -1,0 +1,15 @@
+John Doe
+Software Developer
+
+Summary:
+Experienced software developer with 4 years in Python, specializing in web applications and data processing. Strong problem-solving skills and a passion for learning new technologies.
+
+Experience:
+- Senior Python Developer at Tech Solutions (3 years): Developed and maintained RESTful APIs, optimized database queries, and deployed applications on AWS.
+- Junior Developer at Innovate Corp (1 year): Assisted in building data pipelines and automating testing processes.
+
+Skills:
+Python, Django, Flask, SQL, AWS, Git, Docker, Data Structures, Algorithms, Agile
+
+Education:
+- Bachelor of Science in Computer Science, University of Example (2020)
