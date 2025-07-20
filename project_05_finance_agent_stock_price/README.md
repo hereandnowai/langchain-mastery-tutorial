@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.hereandnowai.com/">
-    <img src="https://img.shields.io/badge/Here_and_Now_AI-Tutorial_Series-blue.svg" alt="HERE AND NOW AI Tutorial Series">
+    <img src="https://img.shields.io/badge/HERE_AND_NOW_AI-Tutorial_Series-blue.svg" alt="HERE AND NOW AI Tutorial Series">
   </a>
   <h1>Project 5: Finance Agent - Stock Price</h1>
   <strong>A deep dive into creating your first LangChain Agent with a custom tool.</strong>
@@ -168,7 +168,7 @@ You've taken your first step into a larger world of building AI that doesn't jus
 ---
 
 <div align="center">
-  <h2>Connect with Here and Now AI</h2>
+  <h2>Connect with HERE AND NOW AI</h2>
   <p>Your journey into AI and LLMs is just beginning. Follow us for more tutorials, projects, and insights!</p>
   <a href="https://youtube.com/@hereandnow_ai"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube"></a>
   <a href="https://github.com/hereandnowai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
