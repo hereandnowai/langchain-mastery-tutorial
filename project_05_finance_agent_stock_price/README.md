@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://www.hereandnow.ai/">
-    <img src="https://img.shields.io/badge/Here_and_Now_AI-Tutorial_Series-blue.svg" alt="Here and Now AI Tutorial Series">
+  <a href="https://www.hereandnowai.com/">
+    <img src="https://img.shields.io/badge/Here_and_Now_AI-Tutorial_Series-blue.svg" alt="HERE AND NOW AI Tutorial Series">
   </a>
   <h1>Project 5: Finance Agent - Stock Price</h1>
   <strong>A deep dive into creating your first LangChain Agent with a custom tool.</strong>
