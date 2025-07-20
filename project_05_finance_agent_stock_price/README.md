@@ -170,10 +170,11 @@ You've taken your first step into a larger world of building AI that doesn't jus
 <div align="center">
   <h2>Connect with Here and Now AI</h2>
   <p>Your journey into AI and LLMs is just beginning. Follow us for more tutorials, projects, and insights!</p>
-  <a href="https://www.youtube.com/@hereandnowai"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube"></a>
-  <a href="https://github.com/hereandnow-ai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/hereandnowai/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://youtube.com/@hereandnow_ai"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube"></a>
+  <a href="https://github.com/hereandnowai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/company/hereandnowai/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://x.com/hereandnow_ai"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a>
+  <a href="https://instagram.com/hereandnow_ai"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
   <br>
-  <strong>Website:</strong> <a href="https://www.hereandnow.ai">www.hereandnow.ai</a> | <strong>Contact:</strong> <a href="mailto:info@hereandnow.ai">info@hereandnow.ai</a>
+  <strong>Website:</strong> <a href="https://hereandnowai.com">www.hereandnowai.com</a> | <strong>Contact:</strong> <a href="mailto:info@hereandnowai.com">info@hereandnowai.com</a>
 </div>
