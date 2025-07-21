@@ -47,13 +47,13 @@ def run_finance_agent_stock_price():
     """
     Creates and runs an agent that can use the get_stock_prices tool.
     """
-    wait_time = 30
+    wait_time = 15
     print(f"Waiting for {wait_time} seconds to comply with potential rate limits...")
     for i in range(wait_time, 0, -1):
-        sys.stdout.write(f"\rWaiting... {i} seconds remaining. ")
+        sys.stdout.write(f"\rWaiting... {i} seconds remaining.")
         sys.stdout.flush()
         time.sleep(1)
-    sys.stdout.write("\rDone waiting.\n")
+    sys.stdout.write("\rDone waiting.                          \n")
     sys.stdout.flush()
     
     llm = ChatGoogleGenerativeAI(model=model, google_api_key=google_api_key)

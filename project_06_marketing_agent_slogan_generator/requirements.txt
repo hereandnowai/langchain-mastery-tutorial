@@ -2,3 +2,6 @@ langchain
 langchain-google-genai
 python-dotenv
 uv
+langgraph
+requests
+langchain-community
