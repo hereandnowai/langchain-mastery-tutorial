@@ -1,0 +1,25 @@
+Here are the tickers in a ready-to-copy block:
+
+```
+# 🇮🇳 Indian Stock Tickers
+RELIANCE.NS
+HDFCBANK.NS
+TCS.NS
+ICICIBANK.NS
+BHARTIARTL.NS
+SBIN.NS
+INFY.NS
+BAJFINANCE.NS
+```
+
+```
+# 🇺🇸 US Stock Tickers
+GOOG
+AAPL
+MSFT
+AMZN
+TSLA
+NVDA
+META
+JNJ
+```
