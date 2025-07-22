@@ -1,8 +1,39 @@
-langchain
-langchain-google-genai
-python-dotenv
-uv
-pypdf
-pytesseract
-Pillow
-pdf2image
+# Core packages
+langchain>=0.3.66,<0.4
+langchain-google-genai>=2.1.8,<3.0
+
+# CLI & environment
+python-dotenv>=1.1.0
+
+# OCR & PDF handling
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+
+# Rate limiter support
+langchain-core>=0.2.24
+
+# Poppler dependency not installable via pip; install separately:
+# Ubuntu: sudo apt-get install poppler-utils
+# Windows: use conda or download binaries
+
+# Tools & utilities
+Pillow>=9.0.0
+
+# sudo apt update
+# sudo apt install python3-venv python3-pip python3-setuptools python3-wheel
+
+# python3 -m venv .venv
+# source .venv/bin/activate
+
+# python -m pip install --upgrade pip setuptools wheel
+# python -m pip install python-dotenv langchain langchain-google-genai pdf2image pytesseract pillow
+
+# sudo apt-get update
+# sudo apt-get install -y poppler-utils libpoppler-cpp-dev
+
+# which pdfinfo
+# pdfinfo -v
+
+# how to install tessearact ocr on windows: 
+# link: https://github.com/UB-Mannheim/tesseract/wiki
+# link to the exe file: https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe

@@ -1,6 +1,18 @@
+# LangChain core and Google Gemini support
 langchain
 langchain-google-genai
+
+# Experimental agent toolkits (CSV support)
 langchain-experimental
-pandas
+
+# Rate limiter support
+langchain-core
+
+# CLI & environment variable loading
 python-dotenv
-uv
+
+# Data manipulation
+pandas
+
+# Optional for DataFrame markdown preview
+tabulate
