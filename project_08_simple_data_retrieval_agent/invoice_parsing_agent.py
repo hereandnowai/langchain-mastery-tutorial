@@ -59,9 +59,9 @@ def run_invoice_processing_agent():
 
     # Rate limiter
     rate_limiter = InMemoryRateLimiter(
-        requests_per_second=0.1,
-        check_every_n_seconds=0.1,
-        max_bucket_size=1,
+        requests_per_second=0.1, # Allows 1 request every 10 seconds (0.1 = 1 / 10).
+        check_every_n_seconds=0.1, # It checks every 100 milliseconds whether a request can proceed.
+        max_bucket_size=1, # Allows only 1 pending request at a time in memory (think of it like a buffer bucket).
     )
 
     # Use correct model and provider
