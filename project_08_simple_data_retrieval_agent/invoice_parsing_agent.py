@@ -57,14 +57,14 @@ def run_invoice_processing_agent():
 
     wait_before_request(15)
 
-    # ✅ Rate limiter
+    # Rate limiter
     rate_limiter = InMemoryRateLimiter(
         requests_per_second=0.1,
         check_every_n_seconds=0.1,
         max_bucket_size=1,
     )
 
-    # ✅ Use correct model and provider
+    # Use correct model and provider
     llm = init_chat_model(
         model=model,
         model_provider="google_genai",
