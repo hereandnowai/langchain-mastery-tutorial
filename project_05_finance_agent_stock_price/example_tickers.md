@@ -1,5 +1,3 @@
-Here are the tickers in a ready-to-copy block:
-
 ```
 # 🇮🇳 Indian Stock Tickers
 RELIANCE.NS
