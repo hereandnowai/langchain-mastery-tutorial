@@ -54,7 +54,7 @@ def run_finance_agent_stock_price():
         sys.stdout.flush()
         time.sleep(1)
     sys.stdout.write("\rDone waiting.                          \n")
-    sys.stdout.flush()
+    # sys.stdout.flush()
     
     llm = ChatGoogleGenerativeAI(model=model, google_api_key=google_api_key)
     tools = [get_stock_prices]
