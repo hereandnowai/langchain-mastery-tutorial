@@ -2,3 +2,7 @@ langchain
 langchain-google-genai
 python-dotenv
 uv
+pypdf
+pytesseract
+Pillow
+pdf2image

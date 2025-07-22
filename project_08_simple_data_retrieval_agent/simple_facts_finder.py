@@ -1,6 +1,3 @@
-# main.py
-# Objective: A basic agent that can retrieve data from a predefined list of facts.
-
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import AgentExecutor, create_react_agent
 from langchain import hub
