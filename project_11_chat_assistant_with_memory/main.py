@@ -1,6 +1,3 @@
-# main.py
-# Objective: Create a chat assistant that can remember past conversations (last 5 turns).
-
 import os
 from dotenv import load_dotenv
 from config import MODEL
@@ -15,7 +12,7 @@ from langchain_core.rate_limiters import InMemoryRateLimiter
 
 load_dotenv()
 google_api_key = os.getenv("GEMINI_API_KEY")
-model_name = MODEL
+model = MODEL
 
 class SlidingHistory(BaseChatMessageHistory, BaseModel):
     messages: list = Field(default_factory=list)
@@ -48,7 +45,7 @@ def run_chat_assistant_with_memory(session_id: str = "default_session"):
     )
 
     llm = ChatGoogleGenerativeAI(
-        model=model_name,
+        model=model,
         google_api_key=google_api_key,
         rate_limiter=rate_limiter,
     )
