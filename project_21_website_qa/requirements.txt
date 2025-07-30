@@ -1,7 +1,6 @@
 langchain
 langchain-google-genai
-langchain-community
+python-dotenv
 beautifulsoup4
 lxml
-python-dotenv
-uv
+requests

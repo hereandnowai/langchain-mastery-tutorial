@@ -1,4 +1,5 @@
+langchain
 langchain-google-genai
 python-dotenv
-streamlit
-gradio
+langgraph
+uv

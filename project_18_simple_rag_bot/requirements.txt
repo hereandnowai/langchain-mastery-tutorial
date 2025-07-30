@@ -1,7 +1,6 @@
 langchain
 langchain-google-genai
-langchain-community
-beautifulsoup4
-lxml
 python-dotenv
+faiss-cpu
+langchain-community
 uv
