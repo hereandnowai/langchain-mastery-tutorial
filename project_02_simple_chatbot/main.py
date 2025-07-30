@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 google_api_key = os.getenv("GEMINI_API_KEY")
-model = "gemini-1.5-flash"
+model = "gemini-2.5-flash-lite"
 
 def run_simple_chatbot():
     """

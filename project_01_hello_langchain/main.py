@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+google_api_key = os.getenv("GEMINI_API_KEY")
+model = "gemini-2.5-flash-lite"
 
 def run_hello_langchain():
     """
@@ -13,10 +15,10 @@ def run_hello_langchain():
     Prints the model's response.
     """
     # Instantiate the model
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv("GEMINI_API_KEY"))
+    llm = ChatGoogleGenerativeAI(model=model, google_api_key=google_api_key)
 
     # Invoke the model with a simple prompt
-    response = llm.invoke("Tell me about HERE AND NOW AI - Artificial Intelligence Research Institute")
+    response = llm.invoke("Explain back propagation in 2 lines?")
 
     # Print the response
     print(response.content)

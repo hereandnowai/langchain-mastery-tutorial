@@ -61,7 +61,7 @@ def run_invoice_processing_agent():
 
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     invoice_pdf_path = os.path.join(BASE_DIR, "scanned_invoice.pdf")
-
+    
     if not os.path.exists(invoice_pdf_path):
         print(f"'{invoice_pdf_path}' not found. Place your scanned PDF there.")
         return
